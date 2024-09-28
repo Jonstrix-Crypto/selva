@@ -1,0 +1,111 @@
+body{
+  background-color: #000;
+  background-image: url("img/verde.jpg");
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  box-shadow: 5px 5px 10px rgb(0, 0, 0), -5px -5px 10px rgb(0, 0, 0);
+    border-radius: 15px;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.navbar {
+  font-family: Montserrat, sans-serif;
+  margin-bottom: 0;
+  background-color: #2d2d30;
+  border: 0;
+  font-size: 11px !important;
+  letter-spacing: 4px;
+  opacity: 0.9;
+}
+.navbar li a, .navbar .navbar-brand { 
+  color: #d5d5d5 !important;
+}
+.navbar-nav li a:hover {
+  color: #fff !important;
+}
+.navbar-nav li.active a {
+  color: #fff !important;
+  background-color: #29292c !important;
+}
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+}
+ 
+ 
+img{
+    width: 100%;
+    display: block;
+}
+h1 {
+  color: black;
+    text-align: center;
+    text-transform: uppercase;
+}
+  .contenedor{
+     padding-top: 90px;
+    width: 180%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.card-header{
+    height:270px;
+    width: 100%;
+    object-position: 50% 50%;
+    object-fit: cover;
+}
+.card-title{
+    text-align: center;
+    margin: 0;
+}
+.card-description{
+    flex-grow: 1;
+}
+.card-header img{
+    border-radius: 20px 20px 0 0;
+}
+.card-body{
+    border-radius: 0 0 20px 20px;
+    background-color: #e0d6d6;
+    padding: 30px 30px;
+    text-align: justify;
+    border: 3px solid #ccc;
+}
+/*.btn{
+    display: block;
+    background-color: var(--secondary);
+    padding: 5px;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+}*/
+@media(min-width: 680px){
+    .contenedor{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap:  10px;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+    }
+    .card-body{
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+    }
+}
+p{
+  color: rgb(0, 0, 0);
+  font-size: 18px !important;
+
+}
+
+/* Footer*/
+
+
+
+footer {
+  padding-top: 80px;
+  background-color: #000000;
+  color: rgb(219, 218, 218);
+  padding: 15px;}
